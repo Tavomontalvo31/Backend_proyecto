@@ -12,9 +12,11 @@
   "description": "",
   "dependencies": {
     "@turf/turf": "^7.2.0",
+    "bcryptjs": "^3.0.2",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "haversine-distance": "^1.2.3",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.15.2"
   },
   "devDependencies": {
