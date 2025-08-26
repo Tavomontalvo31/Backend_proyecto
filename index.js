@@ -7,10 +7,13 @@ const calculateRateQuote = require('./services/quoteApiRequest');
 const authRouter = require('./routes/auth')
 const generateBol = require('./services/shipmentDocs');
 const shipmentRoutes = require('./routes/shipment')
+const cors = require('cors')
 
 const app = express();
 
 connectDB();
+
+app.use(cors())
 
 const port = 3000;
 
